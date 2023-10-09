@@ -1,0 +1,117 @@
+
+/* Estilos CSS para a apresentação */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#cadastroForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#cadastroForm input[type="text"],
+#cadastroForm select,
+#cadastroForm input[type="submit"],
+#cadastroForm input[type="button"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#tabelaVendedores {
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: left;
+   
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#legenda {
+    margin-top: 10px;
+}
+
+.ativo {
+    color: green;
+    font-weight: bold;
+}
+
+.inativo {
+    color: red;
+    font-weight: bold;
+}
+
+#consultaForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#consultaForm input[type="text"],
+#consultaForm input[type="button"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#consultaForm button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+.voltar{
+    position: absolute;
+    margin-top: 10px;
+    width: 10%;
+    height: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.voltar:hover{
+    background-color: #036eb6;
+    color: #fff;
+}

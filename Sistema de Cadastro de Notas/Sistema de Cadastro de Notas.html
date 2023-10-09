@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Sistema de Cadastro de Notas.css">
+</head>
+<body>
+    <a href="../menu/html/menu.html">
+    <button class="voltar">Voltar</button></a>
+   <h1>Sistema de Cadastro de Notas</h1>
+    
+    <!-- Formulário para Incluir/Alterar Notas -->
+    <form id="cadastroForm">
+        <input type="hidden" id="sequencial" value="1">
+        Prefixo Título: <input type="text" id="prefixo" required><br>
+        Número Sequencial: <input type="text" id="numeroSequencial" disabled><br>
+        Parcela do Título: <input type="text" id="parcela" required><br>
+        Tipo do Título: 
+        <select id="tipo">
+            <option value="DP">DP</option>
+            <option value="FI">FI</option>
+            <option value="NF">NF</option>
+            <option value="OUTRO">OUTRO</option>
+        </select><br>
+        Nome do Cliente: <input type="text" id="cliente" required><br>
+        Valor do Título: <input type="text" id="valor" required><br>
+        Saldo do Título: <input type="text" id="saldo" required><br>
+        Data Emissão: <input type="date" id="dataEmissao" required><br>
+        Data Vencimento: <input type="date" id="dataVencimento" required><br>
+        Código do Cobrador: <input type="text" id="codigoCobrador"><br>
+        Data Cobrança: <input type="date" id="dataCobranca"><br>
+        <input type="submit" value="Incluir">
+        <input type="button" value="Alterar" id="alterar" disabled>
+    </form>
+
+    <!-- Tabela para Visualizar/Excluir Notas -->
+    <table id="tabelaNotas">
+        <thead>
+            <tr>
+                <th>Prefixo Título</th>
+                <th>Número Sequencial</th>
+                <th>Parcela do Título</th>
+                <th>Tipo do Título</th>
+                <th>Nome do Cliente</th>
+                <th>Valor do Título</th>
+                <th>Saldo do Título</th>
+                <th>Data Emissão</th>
+                <th>Data Vencimento</th>
+                <th>Código do Cobrador</th>
+                <th>Data Cobrança</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dados das notas serão inseridos aqui -->
+        </tbody>
+    </table>
+    <script src="Sistema de Cadastro de Notas.js"></script>
+</body>
+</html>

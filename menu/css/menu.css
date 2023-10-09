@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+  
+}
+.card {
+    text-align: center;
+    background-color: #fff;
+    width: 50vw;
+    height: 40vw;  /* Define a altura igual à altura da janela do navegador (viewport) */
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    position: absolute;
+    left: 20%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Estilos para os botões */
+button {
+  background-color: transparent;
+  border-color: #272262;
+  color: #272262;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.4s ease-out;
+  margin-bottom: 10px; /* Espaçamento entre os botões */
+}
+
+button:hover {
+  background-color: #272262;
+  color: #fff;
+}
+  
+
+  
+  

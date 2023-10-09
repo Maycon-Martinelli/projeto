@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+h1 {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form input[type="text"],
+form input[type="date"],
+form select,
+form input[type="submit"],
+form input[type="button"] {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="submit"],
+form input[type="button"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+table {
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+table td a {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+table td a:hover {
+    text-decoration: underline;
+}
+
+.voltar{
+    position: absolute;
+    margin-top: 10px;
+    width: 10%;
+    height: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.voltar:hover{
+    background-color: #036eb6;
+    color: #fff;
+}
